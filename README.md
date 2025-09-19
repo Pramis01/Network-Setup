@@ -74,17 +74,23 @@ Jeg satte IP-adressen via nettverksinnstillinger i GUI:
 
 Etterpå koblet jeg til på nytt, og Pi fikk statisk IP-adresse.
 
+<img width="2560" height="1440" alt="GUI_Statisk_IP" src="https://github.com/user-attachments/assets/b4a56328-9f07-4415-aa4f-f1ec82a41caa" />
 
 Test
 
 - Ping fra klient → server: 
 
-	ping 10.200.10.26
+		ping 10.200.10.26
 
+<img width="2560" height="1440" alt="PING_WIN11 (1)" src="https://github.com/user-attachments/assets/b0ab7d2c-1125-4f3c-b47f-e23b9da118cb" />
 
 -Ping fra server → klient: ✅
 
-	ping 10.2.2.85
+		ping 10.2.2.85
+ 
+<img width="1115" height="628" alt="Skjermbilde 2025-09-19 094517" src="https://github.com/user-attachments/assets/98c154fa-aa3c-4e1c-8208-1ad0f06ad04b" />
+
+ 
 
 
 Konklusjon
