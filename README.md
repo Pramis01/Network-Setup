@@ -32,24 +32,24 @@ Jeg forsøkte først å sette statisk IP via Netplan i terminalen med:
 
 Jeg skrev inn følgende konfigurasjon (ca. 18 linjer langt):
 
-network:
-  version: 2
-  renderer: NetworkManager
-  wifis:
-    wlan0:
-      dhcp4: no
-      addresses:
-        - 10.200.10.26/8
-      nameservers:
-        addresses:
-          - 8.8.8.8
-          - 1.1.1.1
-      routes:
-        - to: 0.0.0.0/0
-          via: 10.200.10.1 
-      access-points:
-        "2IMA":
-          password: "IMKuben1337!"
+		network:
+		  version: 2
+		  renderer: NetworkManager
+		  wifis:
+		    wlan0:
+		      dhcp4: no
+		      addresses:
+		        - 10.200.10.26/8
+		      nameservers:
+		        addresses:
+		          - 8.8.8.8
+		          - 1.1.1.1
+		      routes:
+		        - to: 0.0.0.0/0
+		          via: 10.200.10.1 
+		      access-points:
+		        "2IMA":
+		          password: "IMKuben1337!"
 
 
 - Problemet: YAML er veldig følsomt for innrykk og mellomrom.Jeg lærte hvordan oppsettet fungerer, men fikk det ikke til å virke i praksis.
